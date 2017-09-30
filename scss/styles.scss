@@ -34,7 +34,7 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #870000;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -466,7 +466,7 @@ footer {
 */
 
 #experience {
-    padding: 50px 15px;
+    padding: 50px 10px;
     text-align: center;
     border-bottom: 1px solid $border;
 
@@ -476,7 +476,7 @@ footer {
 }
 
 #experience-timeline {
-    margin: 30px auto 0 auto;
+    margin: 10px auto 0 auto;
     position: relative;
     max-width: 1000px;
 
@@ -485,7 +485,7 @@ footer {
         content: '';
         top: 0;
         bottom: 0;
-        left: 303px;
+        left: 200px;
         right: auto;
         height: 100%;
         width: 3px;
@@ -501,12 +501,12 @@ footer {
         background: $base-color;
         background: linear-gradient(to bottom, $base-color, rgba($base-color, 0));
         top: 100%;
-        left: 303px;
+        left: 200px;
     }
 }
 
 .vtimeline-content {
-    margin-left: 350px;
+    margin-left: 250px;
     background: #fff;
     border: 1px solid #e6e6e6;
     padding: 15px;
@@ -551,7 +551,7 @@ footer {
     border-radius: 50%;
     float: left;
     z-index: 99;
-    margin-left: 280px;
+    margin-left: 177px;
 
     i {
         display: block;
@@ -561,7 +561,7 @@ footer {
 }
 
 .vtimeline-date {
-    width: 260px;
+    width: 110px;
     text-align: right;
     position: absolute;
     left: 0;
@@ -963,7 +963,7 @@ footer {
     }
 
     .project-info {
-        position: relative;
+        position: inherit;
         margin: 0;
         padding: 30px 15px;
         top: auto;
