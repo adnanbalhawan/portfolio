@@ -10,6 +10,23 @@
     portfolio website.
 */
 
+// $('#contactModal').modal('toggle');
+
+$(document).keyup(function(e)
+{
+  var key = e.which || e.keyCode;
+  if(key >= 48 && key <= 122
+      && document.activeElement != document.getElementById('contacttext'))
+  {
+    $('#contactModal').modal('show');
+    $('#contactemail').focus();
+  }
+});
+
+$('#submit').click(function() {
+  $('#contactForm').submit();
+});
+
 (function($) {
 
     // Remove no-js class

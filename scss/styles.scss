@@ -42,11 +42,11 @@ $background: #fff;
 $background-alt: #f2f2f5;
 
 // Define border colors
-$border: #dcd9d9;
+$border: #D9C0C0;
 
 // Define text colors
-$heading: #374054;
-$text: #74808a;
+$heading: #710000;
+$text: #340000;
 
 /*
     ---------------------
@@ -85,7 +85,7 @@ $text: #74808a;
 */
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 16px;
 
     &.active {
@@ -99,7 +99,7 @@ body {
     #experience-timeline {
         > div {
             background: $background;
-            padding: 10px;
+            padding: 50px;
             margin-bottom: 10px;
             border: 1px solid $border;
 
@@ -295,9 +295,10 @@ footer {
 .btn-rounded-white {
     display: inline-block;
     color: #fff;
-    padding: 15px 25px;
+    padding: 10px 20px;
     border: 3px solid #fff;
-    border-radius: 30px;
+    border-radius: 10px;
+    margin: 10px auto;
     @include transition();
 
     &:hover {
@@ -365,14 +366,13 @@ footer {
     text-align: center;
 
     h1, h2 {
-        margin: 0;
+        margin: 10vh 0 10vh 0;
     }
 
     h1 {
         color: #fff;
-        font-weight: 900;
-        font-size: 5em;
-        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 4em;
         letter-spacing: 0.05em;
         line-height: 0.9em;
     }
@@ -380,7 +380,7 @@ footer {
     h2 {
         color: lighten($base-color, 25%);
         font-weight: 500;
-        font-size: 2.25em;
+        font-size: 2em;
         margin-bottom: 15px;
     }
 }
@@ -524,7 +524,7 @@ footer {
     h4 {
         font-size: 1.2em;
         font-weight: 300;
-        color: #7e8890;
+        color: #907E7E;
         margin: 0 0 15px 0;
     }
 
@@ -730,7 +730,8 @@ footer {
 
 #contact {
     padding: 50px 15px;
-    background: $base-color;
+    background: linear-gradient(rgba(135,0,0,0.7), rgba(135,0,0,0.7)), url(../images/lead-bg.jpg);
+    background-size: cover;
     text-align: center;
 
     h2 {
