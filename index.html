@@ -50,7 +50,7 @@
     <div id="lead">
         <div id="lead-content">
             <h1>Adnan Balhawan</h1>
-            <h2>Software Engineer</h2>
+            <h2>Software Engineer / Freelance Web Developer</h2>
             <a href='#' data-toggle="modal" data-target="#contactModal" class="btn-rounded-white">contact</a>
         </div>
         <!-- End #lead-content -->
@@ -239,7 +239,7 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">get in touch</h5>
+            <h5 class="modal-title" id="exampleModalLabel">get in touch!</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -247,9 +247,13 @@
           <div class="modal-body">
             <form method="POST" id='contactForm' action="https://formspree.io/adnanbalhawan+portfolio@gmail.com">
               <div class="form-group">
-                <input class='form-control' id='contactemail' type="email" name="replyto" placeholder="Your email" required>
+                <input class='form-control' id='contactemail' type="email" name="replyto" placeholder="Your email, so I can get back to you" required>
               </div>
               <div class="form-group">
+                <input class='form-control' id='contactnumber' type="number" placeholder="full phone number with country code (optional)">
+              </div>
+              <div class="form-group">
+                <label for="number">Please indiciate in your message when is the best time to reach out to you, if you provide a phone number</label>
                 <textarea name="message" id='contacttext' class='form-control' placeholder="message" required></textarea>
               </div>
             </form>
